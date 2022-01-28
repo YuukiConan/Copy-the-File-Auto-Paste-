@@ -3,13 +3,13 @@ Before do this action, please download Notepad++
 
 @echo off
 
-(IF DEFINED (%ProgramFiles% ##can be change) 
+(IF DEFINED (%ProgramFiles%) ######can be changed 
 GOTO loading )
 
 :loading
 
 echo Please Wait....
-set TARGET_PATH="%ProgramFiles% ##can be change"
+set TARGET_PATH="%ProgramFiles%" ######can be changed 
 goto action
 
 :action
